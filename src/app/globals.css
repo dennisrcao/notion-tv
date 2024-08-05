@@ -5,5 +5,27 @@ html body{
 .page{
   width: 100vw;
   height: 100vh;
-  background-color: red;
+
+}
+
+.notion-frame{
+  background-color: black;
+  /* color: black; */
+  .notion-header{
+    display: none;
+  }
+  .notion-page-scroller{
+    .notion-page{
+      padding: 0;
+      /* margin: 0; */
+
+      .notion-page-icon-hero{
+        display: none;
+      }
+
+    }
+    .notion-full-width{
+      width: 100%;
+    }
+  }
 }
